@@ -16,7 +16,7 @@ export async function getImageCat() {
 
 export async function getImageDog() {
 
-  const response = await axios.get(`/500/500`,
+  const response = await axios.get(`https://place.dog/500/500`,
     {
       responseType: "blob"
     })
